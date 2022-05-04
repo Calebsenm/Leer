@@ -1,88 +1,48 @@
-*{
-    background-color: rgb(65, 78, 64);
-    color: aliceblue;
-    
+.aside{
+    background-color: aquamarine;
+    width: 200px;
+    height: 600px;
+    border-radius: 10px;
 }
-.color1{
-    background-color: rgb(149, 190, 190);
-    color: black;
-    width: 100%;
-    max-width: 600px;
+.central{
+    background-color: rgb(8, 46, 46);
+    height: 200px;
+    width: 100px;
+    
 
+}
+
+.inicio{
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+    height: 10px;
+   
+}
+.inicio1{
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+    height: 10px;
     
 }
-.center{
-    color: rgb(226, 139, 139);
-    
+.Inicio{
+   
+    list-style: none;
+    text-align:center;
+   
 }
-.centro{
+.cerrar{
+    float: right;
+
     padding: 0px;
-    margin: 20px;
-    font-size: larger;
-    color: rgb(139, 226, 153);
-    font-weight: 500;
+}
+/* la x de cierre */
+.close-btn {
+   
+    font-size: 30px;
+    color: #000;
     
-}
-.tam{
-    width: 100%;
-    height: 30px;
-    font-size: 25px;
-    max-width: 600px;
-}
-.tamaño{
-    height: 200%;
-    width: 100%;
-    font-size: large;
-    max-width: 600px;
-}
-.dos{
-    height: 22px;
-    width: 22px;
-}
-
-.contenedor{
-    width: 90%;
-    max-width: 1000px;
-    margin:0 auto;
-    overflow: center;
-
-}
-
-.tamaño2{
-
-    height: 100px;
-    width: 100%;
-    font-size: 200%;
-
-}
-
-.tamaño_Inicio{
-    
-    height: 100%;
-    width: 100%;
-    font-size: 200%;
-    max-width: 600px;
-}
-
-.lectura{
-    background-color: rgb(250, 250, 250);
-    color: black;
-    font-size: large;
-    z-index:100;
-        
-        
-}
-
-
-@media screen  and (max-width:500px){
-    *{
-        background-color: rgb(33, 37, 26);
-    }
-    main{
-        width: 100%;
-        
-    }
-    aside{
-        width: 100%;
-    }
-}
+  }
